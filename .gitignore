@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Outputs of predictor.py
+result.csv
+my_data.csv
+*.out.csv
+
+# TabPFN checkpoints are large and carry their own licence; never commit them
+*.ckpt
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
